@@ -13,7 +13,7 @@ const Pixelgrade = () => {
         <h1 className="text-4xl font-semibold text-[#4D4D4D]  w-2/3 ">
           The unseen of spending three years at Pixelgrade
         </h1>
-        <p className='w-2/4 mt-5 text-[#717171] ' >
+        <p className='w-4/5 mt-5 text-[#717171] ' >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
           justo ipsum. Sed accumsan quam vitae est varius fringilla.
           Pellentesque placerat vestibulum lorem sed porta. Nullam mattis

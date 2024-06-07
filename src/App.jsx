@@ -5,6 +5,7 @@ import Works from './Components/Works';
 import Community from './Components/Community';
 import Pixelgrade from './Components/Pixelgrade';
 import Helping from './Components/Helping';
+import Site from './Components/Site';
 
 function App() {
   
@@ -17,7 +18,7 @@ function App() {
       <Community />
       <Pixelgrade />
       <Helping />
-     
+     <Site />
       
     </>
   );
