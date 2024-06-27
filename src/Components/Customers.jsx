@@ -26,7 +26,7 @@ const Customer = () => {
   ];
 
   return (
-    <div className=" h-full  mt-10 gap-20 flex  justify-evenly items-center bg-[#F5F7FA]">
+    <div className=" h-full   p-5 mt-10 gap-20 flex  justify-evenly items-center bg-[#F5F7FA]">
       <div>
         <img src={tesla} alt="img" className=" ml-[200px]" />
       </div>

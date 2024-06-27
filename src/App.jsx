@@ -7,6 +7,7 @@ import Pixelgrade from "./Components/Pixelgrade";
 import Helping from "./Components/Helping";
 import Site from "./Components/Site";
 import Customers from './Components/Customers';
+import Newmarketing from './Components/Newmarketing';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Helping />
       <Site />
       <Customers />
+      <Newmarketing />
     </>
   );
 }
