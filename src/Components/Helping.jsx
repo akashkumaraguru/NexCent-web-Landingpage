@@ -29,9 +29,9 @@ const Helping = () => {
   ];
 
   return (
-    <div className="mt-10  bg-[#F5F7FA] flex w-full  h-[40vh]">
-      <div className="ml-20 p-2">
-        <h1 className="text-5xl mt-10 font-semibold w-3/4">
+    <div className="mt-10  bg-[#F5F7FA]  h-[40vh]">
+      <div className="ml-20 p-2  text-center ">
+        <h1 className="text-5xl mt-10 font-semibold ">
           Helping a local{' '}
           <span className="text-[#4CAF4F]">business reinvent itself</span>
         </h1>

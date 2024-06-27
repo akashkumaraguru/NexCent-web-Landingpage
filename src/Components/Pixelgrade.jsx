@@ -1,7 +1,7 @@
 import illustration from "../assets/Community/illustration-left.png";
 const Pixelgrade = () => {
   return (
-    <div className="w-full h-full p-10 flex ml-20 items-start justify-around">
+    <div className="w-fit h-full p-10 flex ml-20 items-start justify-around">
       <div className='w-full'>
         <img
           src={illustration}

@@ -18,7 +18,7 @@ const Navbar = () =>{
                 </ul>
                     <div className='flex justify-evenly items-center w-[10vw]'>
                         <h1 className='text-[#4CAF4F] cursor-pointer'>Log In</h1>
-                        <h2 className='bg-[#4CAF4F] rounded-md p-2 text-center rounded-sm text-white cursor-pointer'>Sign In</h2>
+                        <h2 className='bg-[#4CAF4F] rounded-md p-2 text-center rounded-md hover:text-white hover:bg-[#66BB69] text-white cursor-pointer'>Sign In</h2>
                     </div>
             </div>
             

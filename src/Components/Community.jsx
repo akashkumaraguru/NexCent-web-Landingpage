@@ -22,10 +22,11 @@ const Community = () => {
       descrip:
         "Our membership management software provides full automation of membership renewals and payments",
     },
+    
   ];
 
   return (
-    <div className="text-center w-full mt-20 p-5">
+    <div className="text-center  w-full mt-20 p-5">
       <h1 className="text-4xl font-bold text-[#4D4D4D]">
         Manage your entire community in a single system
       </h1>
@@ -33,7 +34,7 @@ const Community = () => {
         Who is Nextcent suitable for?
       </h1>
 
-      <div className=' w-full  text-center flex justify-evenly p-10  '>
+      <div className='text-center flex justify-evenly p-10  '>
         {infos.map((e, i) => (
           <div key={i} className='mt-10 flex flex-col  justify-evenly items-center '>
             <img src={e.icon} alt="icons" className ='w-[65px] h-[56px] items-center' />
