@@ -8,7 +8,8 @@ import Helping from "./Components/Helping";
 import Site from "./Components/Site";
 import Customers from './Components/Customers';
 import Newmarketing from './Components/Newmarketing';
-
+import Beffooter from './Components/Beffooter';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Site />
       <Customers />
       <Newmarketing />
+      <Beffooter />
+      <Footer />
     </>
   );
 }

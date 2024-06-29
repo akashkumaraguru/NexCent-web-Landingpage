@@ -11,7 +11,7 @@ const Newmarketing = () => {
     {
       img: imgTwo,
       descp:
-        "What are your safeguarding responsibilities and how can you manage them?",
+        "What are your safeguarding responsibilities",
     },
     {
       img: imgThree,
@@ -20,23 +20,24 @@ const Newmarketing = () => {
   ];
 
   return (
-    <div className="mt-20">
-      <div className="flex  flex-col items-center gap-2  ">
+    <div className="mt-20 ">
+      <div className="flex  flex-col items-center ">
         <h1 className=" font-bold text-[36px] text-[#4D4D4D] ">
           Caring is the new marketing
         </h1>
-        <h1 className="w-2/5 text-center text-[#4D4D4D]  ">
+        <h1 className="w-2/5 text-center text-[#4D4D4D] gap-10 ">
           The Nexcent blog is the best place to read about the latest membership
           insights, trends and more. See who's joining the community, read about
           how our community are increasing their membership income and lot's
           more.​
         </h1>
       </div>
-      <div className="flex justify-evenly items-center p-5">
+      <div className="flex items-center  mt-10 justify-evenly ml-10">
         {imges.map((e, i) => (
           <div key={i}>
-            <img src={e.img} alt="" />
-            <p className="w-2/5 text-center font-regular">{e.descp}</p>
+            <img src={e.img} alt="" className='bg-cover ' />
+            <p className="w-5/5 p-5 flex-start font-regular">{e.descp}</p>
+            <p className='font-bold text-center hover:bg-[#4CAF4F] hover:text-white text-[#4CAF4F] bg-slate-200 h-10 p-2 rounded-md '>Know more</p>
           </div>
         ))}
       </div>
